@@ -3,4 +3,4 @@ A simple directory enumeration
 
 
 Format:
-python3 pagebuster {Website_ip} {wordlist}
+python3 pagebuster.py {Website_ip} {wordlist}

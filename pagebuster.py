@@ -1,5 +1,9 @@
 import requests 
 import sys 
+import pyfiglet
+
+ascii_banner = pyfiglet.figlet_format("Pagebuster")
+print(ascii_banner)
 
 sub_list = open(sys.argv[2]).read() 
 directories = sub_list.splitlines()
